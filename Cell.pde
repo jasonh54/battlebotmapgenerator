@@ -17,6 +17,7 @@ class Cell{
     image = null;
   }
   public void display(){
+    fill(255);
     if(image == null){
       rect(x,y,w,h);
     } else {
