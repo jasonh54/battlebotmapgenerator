@@ -23,5 +23,16 @@ class Grid{
       cells.get(i).display();
     }
   }
+  public void moveLeftRight(float m){
+    
+    for(int i = 0; i< cells.size(); i++ ){
+      cells.get(i).moveLeftRight(m);
+    }
+  }
+  public void moveUpDown(float m){
+    for(int i = 0; i< cells.size(); i++ ){
+      cells.get(i).moveUpDown(m);
+    }
+  }
   
 }

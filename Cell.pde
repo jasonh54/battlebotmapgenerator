@@ -27,5 +27,11 @@ class Cell{
   public void setImage(PImage i){
     image = i;
   }
+  public void moveLeftRight(float m){
+    x+=m;
+  }
+  public void moveUpDown(float m){
+    y+=m;
+  }
   
 }
