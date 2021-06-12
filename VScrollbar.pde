@@ -13,6 +13,7 @@ class VScrollbar{
     xpos = xp;
     ypos = yp;
     spos = ypos + sheight/2 - swidth/2;
+    spos = 0;
     newspos = spos;
     sposMin = ypos;
     sposMax = ypos + sheight - swidth;

@@ -27,11 +27,23 @@ class Cell{
   public void setImage(PImage i){
     image = i;
   }
+  
+  public PImage getImage(){
+    return image;
+  }
   public void moveLeftRight(float m){
     x+=m;
   }
   public void moveUpDown(float m){
     y+=m;
   }
+  public boolean mouseOver(){
+    if(mouseX > x && mouseX < x+32 && mouseY > y && mouseY < y+32){
+      return true;
+    } else {
+      return false;
+    }
+  }
+
   
 }

@@ -13,6 +13,7 @@ class HScrollbar{
     xpos = xp;
     ypos = yp;
     spos = xpos + swidth/2 - sheight/2;
+    spos = 0;
     newspos = spos;
     sposMin = xpos;
     sposMax = xpos + swidth-sheight;
